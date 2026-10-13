@@ -1,29 +1,20 @@
 [
   {
     "name": "Proxmox VE",
-    "url": "https://100.64.0.2:8006",
+    "url": "https://100.104.123.19:8006",
     "kind": "host",
     "vmid": "",
     "group": "Proxmox",
     "order": 1,
-    "note": "Example. Replace with your node's Tailscale IP"
+    "note": "Proxmox Server"
   },
   {
-    "name": "Jellyfin",
-    "url": "http://100.64.0.11:8096",
-    "kind": "lxc",
-    "vmid": "101",
-    "group": "Media",
-    "order": 10,
-    "note": "Example"
-  },
-  {
-    "name": "Home Assistant",
-    "url": "http://100.64.0.12:8123",
+    "name": "Frigate",
+    "url": "https://100.104.123.19:8971",
     "kind": "vm",
     "vmid": "102",
     "group": "Home",
-    "order": 20,
-    "note": "Example"
+    "order": 10,
+    "note": "Frigate NVR"
   }
 ]
