@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Proxmox VE",
+    "url": "https://100.64.0.2:8006",
+    "kind": "host",
+    "vmid": "",
+    "group": "Proxmox",
+    "order": 1,
+    "note": "Example. Replace with your node's Tailscale IP"
+  },
+  {
+    "name": "Jellyfin",
+    "url": "http://100.64.0.11:8096",
+    "kind": "lxc",
+    "vmid": "101",
+    "group": "Media",
+    "order": 10,
+    "note": "Example"
+  },
+  {
+    "name": "Home Assistant",
+    "url": "http://100.64.0.12:8123",
+    "kind": "vm",
+    "vmid": "102",
+    "group": "Home",
+    "order": 20,
+    "note": "Example"
+  }
+]
